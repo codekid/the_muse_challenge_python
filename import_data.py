@@ -168,15 +168,15 @@ def menu():
 	choice = 0
 	pageNumber = 0
 	while (choice != 5):
-		print "##############################################################################"
-		print "#                        What would you like to do?                          #"
-		print "##############################################################################"
+		print "##################################################################################"
+		print "#                        What would you like to do?                              #"
+		print "#################################################################################"
 		print "#1. 	Insert all Data from site                                               #"
 		print "#2. 	Insert a single page from site                                          #"
 		print "#3. 	Answer question with data in database(ensure all data is inserted first)#"
 		print "#4. 	Delete all data                                                         #"
 		print "#5. 	Exit                                                                    #"
-		print "##############################################################################"
+		print "##################################################################################"
 
 		while True:
 			try:
